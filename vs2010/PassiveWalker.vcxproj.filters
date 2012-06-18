@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GLUT">
+      <UniqueIdentifier>{e3f4b67f-a308-467f-928e-0d176967469f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLUT\Header Files">
+      <UniqueIdentifier>{3bead050-9caf-4652-aad5-a3da0e92e3ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLUT\Source Files">
+      <UniqueIdentifier>{e8105e29-69a8-4900-b496-a872958750a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Machine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PassiveWalker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PassiveWalkerApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PassiveWalkerTestBed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RagDoll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\OpenGL\DemoApplication.h">
+      <Filter>GLUT\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\OpenGL\GLDebugDrawer.h">
+      <Filter>GLUT\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\OpenGL\GLDebugFont.h">
+      <Filter>GLUT\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GLUT_Framework.h">
+      <Filter>GLUT\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\OpenGL\GlutStuff.h">
+      <Filter>GLUT\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\OpenGL\GLShapeDrawer.h">
+      <Filter>GLUT\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Machine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PassiveWalker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PassiveWalkerApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PassiveWalkerTestBed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RagDoll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\OpenGL\DemoApplication.cpp">
+      <Filter>GLUT\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\OpenGL\GLDebugDrawer.cpp">
+      <Filter>GLUT\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\OpenGL\GLDebugFont.cpp">
+      <Filter>GLUT\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\OpenGL\GLShapeDrawer.cpp">
+      <Filter>GLUT\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PassiveWalker.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PassiveWalker.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

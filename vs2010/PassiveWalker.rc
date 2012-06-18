@@ -1,0 +1,30 @@
+
+// Warning: Manually created file. Do not edit with VS.
+
+1 VERSIONINFO
+FILEVERSION 2, 80, 1, 5
+PRODUCTVERSION 2, 80, 1, 5
+#ifdef CS_DEBUG
+FILEFLAGS 0x1
+#else
+FILEFLAGS 0x0
+#endif
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904E4"
+        {
+            VALUE "Comments", "The Physics of Virtual Environments (2012)"
+            VALUE "CompanyName", "UMU.se"
+            VALUE "FileDescription", "Passive Walker"
+            VALUE "FileVersion", "2.80/1.5"
+            VALUE "InternalName", "PW"
+            VALUE "LegalCopyright", "Copyright (c) 2012 by MBK"
+            VALUE "ProductName", "Lab5: Passive Walker"
+            VALUE "ProductVersion", "2.80/1.5"
+            VALUE "URL", "http:://www.umu.se"
+        }
+    }
+}
+
+1 ICON "PassiveWalker.ico"
