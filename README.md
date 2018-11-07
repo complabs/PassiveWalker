@@ -13,4 +13,4 @@ In 1987, McGeer started working on the concept of passive dynamic walking. Passi
 ### Note
 
 The project should be placed inside the bullet folder.
-(The code was tested with bullet-2.80-rev2531).
+(The code was tested with `bullet-2.80-rev2531`).
